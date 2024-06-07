@@ -1,30 +1,33 @@
-# React + TypeScript + Vite
+# Dashboard Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a React-based dashboard application that includes various components such as charts, quick actions, high priority alerts, and highlights. Additionally, it features a dark mode toggle button in the header to switch between light and dark themes.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Dashboard Overview**: Displays key metrics and visualizations.
+- **Quick Actions**: Allows users to quickly navigate to common tasks.
+- **High Priority Alerts**: Shows important notifications and alerts.
+- **Highlights**: Displays recent activities and scheduled tasks.
+- **Sidebar Navigation**: Provides easy access to different sections of the application.
+- **Dark Mode Toggle**: A toggle button in the header to switch between light and dark themes.
 
-## Expanding the ESLint configuration
+## Extra Feature: Dark Mode Toggle
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+A dark mode toggle button has been added to the header. This feature allows users to switch between light and dark themes, enhancing the user experience and providing better visibility in different lighting conditions.
 
-- Configure the top-level `parserOptions` property like this:
+## Live Demo
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+Check out the live demo of the dashboard application on Vercel: [Dashboard Application](https://dashboard-alpha-nine-43.vercel.app/)
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Installation
+
+To run this project locally, follow these steps:
+
+1. **Clone the repository:**
+
+   ```sh
+   git clone https://github.com/your-username/dashboard-application.git
+  
+2. **Navigate to the project directory:** cd dashboard-application
+3. **Install Dependencies:**: npm install
+4. **Start the development server:** npm run dev
