@@ -15,6 +15,12 @@ This is a React-based dashboard application that includes various components suc
 
 A dark mode toggle button has been added to the header. This feature allows users to switch between light and dark themes, enhancing the user experience and providing better visibility in different lighting conditions.
 
+## Tech Stack Used
+-**React**
+-**TypeScript**
+-**Material-UI (MUI)**
+-**React Charts**
+
 ## Live Demo
 
 Check out the live demo of the dashboard application on Vercel: [Dashboard Application](https://dashboard-alpha-nine-43.vercel.app/)
